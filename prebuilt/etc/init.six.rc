@@ -1,4 +1,4 @@
-# SiX Extras
+# SiXROM Extras
 
 on post-fs-data
     # Run sysinit
