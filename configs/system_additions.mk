@@ -14,17 +14,17 @@
 
 # init.d script support
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/bin/sysinit:system/bin/sysinit
+    vendor/six/prebuilt/bin/sysinit:system/bin/sysinit
 
 # Pure-specific init file
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/etc/init.purenexus.rc:root/init.purenexus.rc
+    vendor/six/prebuilt/etc/init.six.rc:root/init.six.rc
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
-    vendor/nexus/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/nexus/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
+    vendor/six/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/six/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+    vendor/six/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
 
 # Security Enhanced Linux
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -33,6 +33,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Set Pixel blue light theme on Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5
+
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/six/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
+# World SPN overrides list
+PRODUCT_COPY_FILES += \
+    vendor/six/prebuilt/etc/spn-conf.xml:system/etc/spn-conf.xml
+
+# Selective SPN list for operator number who has the problem.
+PRODUCT_COPY_FILES += \
+    vendor/six/prebuilt/etc/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
 
 # Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
@@ -52,4 +64,4 @@ EXCLUDE_SYSTEMUI_TESTS := true
     #audio_effects.conf
 #endif
 
-$(call inherit-product-if-exists, vendor/nexus/prebuilt/prebuilt.mk)
+$(call inherit-product-if-exists, vendor/six/prebuilt/prebuilt.mk)

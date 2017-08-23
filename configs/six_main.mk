@@ -14,7 +14,7 @@
 
 # Include overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/nexus/overlay/common
+    vendor/six/overlay/common
 
 # Main Required Packages
 PRODUCT_PACKAGES += \
@@ -22,7 +22,14 @@ PRODUCT_PACKAGES += \
 
 # Custom Packages
 PRODUCT_PACKAGES += \
-    Busybox
+    MonthCalendarWidget \
+    Gallery2 \
+    Messaging \
+    DeskClock \
+    Music \
+    Camera2
+    #OmniStyle
+    #Busybox
     #ThemeInterfacer
 
 # Include explicitly to work around GMS issues

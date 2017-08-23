@@ -1,4 +1,4 @@
-# PureNexus Extras
+# SiX Extras
 
 on post-fs-data
     # Run sysinit

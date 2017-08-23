@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The Pure Nexus Project
+# Copyright (C) 2017 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,21 +15,21 @@
 # Include pure telephony configuration
 include vendor/six/configs/six_phone.mk
 
-# Inherit AOSP device configuration for angler
-$(call inherit-product, device/huawei/angler/aosp_angler.mk)
+# Inherit AOSP device configuration for shamu.
+$(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := angler
+PRODUCT_NAME := shamu
 PRODUCT_BRAND := google
-PRODUCT_DEVICE := angler
-PRODUCT_MODEL := Nexus 6P
-PRODUCT_MANUFACTURER := Huawei
+PRODUCT_DEVICE := shamu
+PRODUCT_MODEL := Nexus 6
+PRODUCT_MANUFACTURER := motorola
 
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=angler \
-    BUILD_FINGERPRINT=google/angler/angler:8.0.0/OPR6.170623.013/4283548:user/release-keys \
-    PRIVATE_BUILD_DESC="angler-user 8.0.0 OPR6.170623.013 4283548 release-keys"
+    PRODUCT_NAME=shamu \
+    BUILD_FINGERPRINT=google/shamu/shamu:7.1.1/N8I11B/4171878:user/release-keys \
+    PRIVATE_BUILD_DESC="shamu-user 8.0.0 OPR6.170623.013 4283548 release-keys"
 
 # Addtional backup tools for dirty flash
 PRODUCT_COPY_FILES += \

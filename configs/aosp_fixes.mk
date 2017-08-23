@@ -28,15 +28,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Proprietary latinime libs needed for Keyboard swyping
 ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/six/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 else
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
+    vendor/six/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
 endif
 
 # Camera Effects for devices without a vendor partition
 ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES +=  \
-    vendor/nexus/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/nexus/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/six/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/six/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 endif

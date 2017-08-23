@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#PureNexus versioning
-ifndef PURE_BUILD_TYPE
-    PURE_BUILD_TYPE := HOMEMADE
+#SiX versioning
+ifndef SIX_BUILD_TYPE
+    SIX_BUILD_TYPE := OPR6-BETA-R3Ds
 endif
 
-ABC_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)
+SIX_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(SIX_BUILD_TYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.abc.version=$(ABC_VERSION)
+    ro.six.version=$(SIX_VERSION)
