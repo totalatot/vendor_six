@@ -21,10 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/six/prebuilt/etc/init.six.rc:root/init.six.rc
 
 # Backup Tool
-PRODUCT_COPY_FILES += \
-    vendor/six/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
-    vendor/six/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/six/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
+#PRODUCT_COPY_FILES += \
+#    vendor/six/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+#    vendor/six/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+#    vendor/six/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
 
 # Security Enhanced Linux
 PRODUCT_PROPERTY_OVERRIDES += \
