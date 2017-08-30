@@ -35,3 +35,9 @@ PRODUCT_PACKAGES += \
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
+
+# Overlay Packages
+PRODUCT_PACKAGES += \
+    PixelOverlay \
+    NexusOverlay
+
