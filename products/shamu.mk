@@ -31,6 +31,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=google/shamu/shamu:7.1.1/N8I11B/4171878:user/release-keys \
     PRIVATE_BUILD_DESC="shamu-user 8.0.0 OPR6.170623.013 4283548 release-keys"
 
-# Addtional backup tools for dirty flash
-PRODUCT_COPY_FILES += \
-    vendor/six/prebuilt/generic/addon.d/91-font.sh:system/addon.d/91-font.sh
