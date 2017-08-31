@@ -18,4 +18,5 @@ PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
     Turbo \
     PrebuiltDeskClockGoogle \
-    CalendarGooglePrebuilt
+    CalendarGooglePrebuilt \
+    Chrome
