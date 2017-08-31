@@ -35,4 +35,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PixelOverlay \
     NexusOverlay
-
