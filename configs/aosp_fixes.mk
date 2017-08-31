@@ -44,5 +44,5 @@ PRODUCT_COPY_FILES +=  \
 endif
 
 # Fix Dialer
-#PRODUCT_COPY_FILES +=  \
-#    vendor/six/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml 
+PRODUCT_COPY_FILES +=  \
+    vendor/six/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml 
