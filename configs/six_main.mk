@@ -25,12 +25,7 @@ PRODUCT_PACKAGES += \
     MonthCalendarWidget \
     Gallery2 \
     Messaging \
-    DeskClock \
-    Music \
     Camera2
-    #OmniStyle
-    #Busybox
-    #ThemeInterfacer
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
