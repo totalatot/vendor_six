@@ -34,4 +34,5 @@ PRODUCT_PACKAGES += \
 # Overlay Packages
 PRODUCT_PACKAGES += \
     PixelOverlay \
-    NexusOverlay
+    NexusOverlay \
+    RedOverlay
