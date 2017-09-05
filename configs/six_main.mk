@@ -27,8 +27,7 @@ PRODUCT_PACKAGES += \
     Messaging \
     Camera2 \
     Eleven \
-    Launcher3 \
-    Browser
+    Launcher3
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
