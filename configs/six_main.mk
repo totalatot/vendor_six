@@ -25,7 +25,10 @@ PRODUCT_PACKAGES += \
     MonthCalendarWidget \
     Gallery2 \
     Messaging \
-    Camera2
+    Camera2 \
+    Eleven \
+    Launcher3 \
+    Browser
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \

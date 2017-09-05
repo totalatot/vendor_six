@@ -14,10 +14,7 @@
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    WallpaperPickerGooglePrebuilt \
-    NexusLauncherPrebuilt \
     Turbo \
     PrebuiltDeskClockGoogle \
     CalendarGooglePrebuilt \
-    Chrome \
-    Music2
+
