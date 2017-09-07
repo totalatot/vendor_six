@@ -17,5 +17,6 @@ PRODUCT_PACKAGES += \
     Turbo \
     PrebuiltDeskClockGoogle \
     CalendarGooglePrebuilt \
-    Chrome
+    Chrome \
+    Substratum
 
