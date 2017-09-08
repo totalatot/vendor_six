@@ -18,6 +18,5 @@ PRODUCT_PACKAGES += \
     PrebuiltDeskClockGoogle \
     CalendarGooglePrebuilt \
     Chrome \
-    QuickTiles \
     Substratum
 
