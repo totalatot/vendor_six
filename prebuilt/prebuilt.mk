@@ -21,5 +21,6 @@ PRODUCT_PACKAGES += \
     Substratum \
     GreenOverlay \
     PinkOverlay \
-    PurpleOverlay
+    PurpleOverlay \
+    AmberOverlay
 
