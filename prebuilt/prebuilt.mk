@@ -18,5 +18,6 @@ PRODUCT_PACKAGES += \
     PrebuiltDeskClockGoogle \
     CalendarGooglePrebuilt \
     Chrome \
-    Substratum
+    Substratum \
+    GreenOverlay
 
