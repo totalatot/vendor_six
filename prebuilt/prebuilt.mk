@@ -19,5 +19,6 @@ PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     Chrome \
     Substratum \
-    GreenOverlay
+    GreenOverlay \
+    PinkOverlay
 
