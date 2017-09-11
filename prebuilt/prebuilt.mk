@@ -16,6 +16,7 @@
 PRODUCT_PACKAGES += \
     Turbo \
     PrebuiltDeskClockGoogle \
+    WallpaperPickerGooglePrebuilt \
     CalendarGooglePrebuilt \
     Chrome \
     Substratum \
