@@ -27,7 +27,8 @@ PRODUCT_PACKAGES += \
     Messaging \
     Camera2 \
     Eleven \
-    Launcher3
+    Launcher3 \
+    SixOTA
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
