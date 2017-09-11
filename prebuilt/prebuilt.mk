@@ -22,5 +22,7 @@ PRODUCT_PACKAGES += \
     GreenOverlay \
     PinkOverlay \
     PurpleOverlay \
-    AmberOverlay
+    AmberOverlay \
+    OrangeOverlay \
+    IndigoOverlay
 
