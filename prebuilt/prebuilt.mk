@@ -20,5 +20,6 @@ PRODUCT_PACKAGES += \
     Chrome \
     Substratum \
     GreenOverlay \
-    PinkOverlay
+    PinkOverlay \
+    PurpleOverlay
 
