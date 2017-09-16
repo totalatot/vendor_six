@@ -20,9 +20,9 @@ $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := shamu
-PRODUCT_BRAND := google
+PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := shamu
-PRODUCT_MODEL := Nexus 6
+PRODUCT_MODEL := Moto X Pro
 PRODUCT_MANUFACTURER := motorola
 
 # Device Fingerprint
