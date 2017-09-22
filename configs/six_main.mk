@@ -36,11 +36,4 @@ PRODUCT_PACKAGES += \
 # Overlay Packages
 PRODUCT_PACKAGES += \
     PixelOverlay \
-    NexusOverlay \
-    RedOverlay \
-    GreenOverlay \
-    PinkOverlay \
-    PurpleOverlay \
-    AmberOverlay \
-    OrangeOverlay \
-    IndigoOverlay
+    NexusOverlay

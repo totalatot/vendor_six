@@ -20,10 +20,6 @@ PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     Chrome \
     Substratum \
-    GreenOverlay \
-    PinkOverlay \
-    PurpleOverlay \
-    AmberOverlay \
-    OrangeOverlay \
-    IndigoOverlay
+    PixelOverlay \
+    NexusOverlay
 

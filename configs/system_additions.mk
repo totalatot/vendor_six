@@ -16,7 +16,7 @@
 PRODUCT_COPY_FILES += \
     vendor/six/prebuilt/bin/sysinit:system/bin/sysinit
 
-# Pure-specific init file
+# Six-specific init file
 PRODUCT_COPY_FILES += \
     vendor/six/prebuilt/etc/init.six.rc:root/init.six.rc
 
