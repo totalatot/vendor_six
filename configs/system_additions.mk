@@ -14,7 +14,8 @@
 
 # init.d script support
 PRODUCT_COPY_FILES += \
-    vendor/six/prebuilt/bin/sysinit:system/bin/sysinit
+    vendor/six/prebuilt/bin/sysinit:system/bin/sysinit \
+    vendor/six/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner
 
 # Six-specific init file
 PRODUCT_COPY_FILES += \
