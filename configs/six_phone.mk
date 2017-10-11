@@ -52,7 +52,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.telephony.support.ipv6=1 \
     persist.telephony.support.ipv4=1 \
     ro.telephony.call_ring.delay=0 \
-    ring.delay=0
+    ring.delay=0 \
+    drm.service.enabled=true
 
 # Thank you, please drive thru!
 PRODUCT_PROPERTY_OVERRIDES += \
