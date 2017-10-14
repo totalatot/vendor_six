@@ -23,8 +23,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.setupwizard.rotation_locked=true \
-    ro.opa.eligible_device=true
-    #    persist.sys.disable_rescue=true
+    ro.opa.eligible_device=true \
+    persist.sys.disable_rescue=true
     #    ro.control_privapp_permissions=enforce \
 
 # Proprietary latinime libs needed for Keyboard swyping
