@@ -16,7 +16,6 @@
 PRODUCT_PACKAGES += \
     Turbo \
     PrebuiltDeskClockGoogle \
-    CalendarGooglePrebuilt \
     Chrome \
     Substratum \
     PixelOverlay \
