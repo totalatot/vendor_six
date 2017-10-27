@@ -19,5 +19,6 @@ PRODUCT_PACKAGES += \
     Chrome \
     Substratum \
     PixelOverlay \
-    NexusOverlay
+    NexusOverlay \
+    EggGame
 
