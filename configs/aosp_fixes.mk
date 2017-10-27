@@ -44,7 +44,3 @@ PRODUCT_COPY_FILES +=  \
     vendor/six/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/six/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 endif
-
-# Fix Dialer
-PRODUCT_COPY_FILES +=  \
-    vendor/six/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml 

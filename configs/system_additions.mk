@@ -51,6 +51,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/six/prebuilt/etc/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
 
+# Fix Dialer
+PRODUCT_COPY_FILES +=  \
+    vendor/six/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml 
+
 # Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
 
