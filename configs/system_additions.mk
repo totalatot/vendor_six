@@ -35,6 +35,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5
 
+# Unlimited Google Photos HQ upload
+PRODUCT_COPY_FILES += \
+   vendor/six/prebuilt/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml
+
 # World APN list
 PRODUCT_COPY_FILES += \
     vendor/six/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
