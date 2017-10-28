@@ -20,5 +20,6 @@ PRODUCT_PACKAGES += \
     Substratum \
     PixelOverlay \
     NexusOverlay \
-    EggGame
+    EggGame \
+    CalendarGooglePrebuilt
 
