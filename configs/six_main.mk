@@ -28,8 +28,7 @@ PRODUCT_PACKAGES += \
     Camera2 \
     Eleven \
     Launcher3 \
-    OmniSwitch \
-    Calendar
+    OmniSwitch
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
